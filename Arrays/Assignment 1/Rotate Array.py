@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """
@@ -7,6 +10,7 @@ class Solution:
         nums[0:(n-k)] = reversed(nums[0:(n-k)])
         nums[(n-k):n] = reversed(nums[(n-k):n])
         nums[0:n] = reversed(nums[0:n])
+
 
 """
 Given an array, rotate the array to the right by k steps, where k is non-negative.
