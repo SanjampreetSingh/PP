@@ -23,4 +23,4 @@ Output: [3,4,6,16,17]
 -10^6 <= nums[i] <= 10^6
 
 **Result**:
-![Result image](https://link)
+![Result image](https://github.com/SanjampreetSingh/PP/blob/master/LeetCode/Array%20Code/Running%20Sum%20of%201d%20Array/image.jpg)
