@@ -1,1 +1,2 @@
-LeetCode [Link](https://leetcode.com/)
+# LeetCode 
+[Link to website](https://leetcode.com/)
