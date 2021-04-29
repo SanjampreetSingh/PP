@@ -28,5 +28,10 @@ For each kid check if there is a way to distribute extraCandies among the kids s
 - 1 <= candies[i] <= 100
 - 1 <= extraCandies <= 50
 
+**Statistics**
+
+1. Time complexity - O(n)
+2. Space complexity - O(1)
+
 **Result**:  
 ![Result image](https://github.com/SanjampreetSingh/PP/blob/master/LeetCode/Array%20Code/Kids%20With%20the%20Greatest%20Number%20of%20Candies/image.jpg)

@@ -26,5 +26,10 @@ Return the running sum of nums.
 - 1 <= nums.length <= 1000
 - 10^6 <= nums[i] <= 10^6
 
+**Statistics**
+
+1. Time complexity - O(n)
+2. Space complexity - O(1)
+
 **Result**:  
 ![Result image](https://github.com/SanjampreetSingh/PP/blob/master/LeetCode/Array%20Code/Running%20Sum%20of%201d%20Array/image.jpg)
