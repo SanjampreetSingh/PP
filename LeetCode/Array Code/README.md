@@ -5,3 +5,4 @@
 3. [Two Sum]()
 4. [Shuffle the array](https://github.com/SanjampreetSingh/PP/blob/master/LeetCode/Array%20Code/Shuffle%20the%20array)
 5. [Richest customer wealth](https://github.com/SanjampreetSingh/PP/blob/master/LeetCode/Array%20Code/Richest%20customer%20wealth)
+6. [Number of Good Pairs](https://github.com/SanjampreetSingh/PP/blob/master/LeetCode/Array%20Code/Number%20Of%20Good%20Pairs/)
