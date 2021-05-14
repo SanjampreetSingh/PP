@@ -17,7 +17,7 @@ Given an array of n positive integers and a number k. Find the minimum number of
 **Your Task:**  
 `This is a function problem. The input is already taken care of by the driver code. You only need to complete the function minSwap() that takes an array (arr), sizeOfArray (n), an integer K, and return the minimum swaps required. The driver code takes care of the printing.`
 
-**Expected Time Complexity:** O(N)
+**Expected Time Complexity:** O(N)  
 **Expected Auxiliary Space:** O(1)
 
 **Constraints:**
