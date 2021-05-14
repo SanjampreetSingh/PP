@@ -31,4 +31,4 @@ Given an array of n positive integers and a number k. Find the minimum number of
 2. Space complexity - O(1)
 
 **Result**:  
-![Result image](https://github.com/SanjampreetSingh/PP/tree/master/GeeksForGeeks/Array%20Code/Minimum%20swaps%20and%20K%20together/image.jpg)
+![Result image](https://github.com/SanjampreetSingh/PP/blob/master/GeeksForGeeks/Array%20Code/Minimum%20swaps%20and%20K%20together/image.jpg)
