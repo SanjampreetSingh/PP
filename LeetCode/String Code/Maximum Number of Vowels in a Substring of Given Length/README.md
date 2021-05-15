@@ -45,6 +45,7 @@ Return the maximum number of vowel letters in any substring of s with length k.
 **Statistics**
 
 1. Time complexity - O(n)
+2. Space complexity - O(1)
 
 **Result**:  
 ![Result image](https://github.com/SanjampreetSingh/PP/blob/master/LeetCode/String%20Code/Maximum%20Number%20of%20Vowels%20in%20a%20Substring%20of%20Given%20Length/image.jpg)
