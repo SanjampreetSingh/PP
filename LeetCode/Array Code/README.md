@@ -9,3 +9,4 @@
 7. [Create Target Array in the Given Order](https://github.com/SanjampreetSingh/PP/blob/master/LeetCode/Array%20Code/Create%20Target%20Array%20in%20the%20Given%20Order/)
 8. [Best Time to Buy and Sell Stock](https://github.com/SanjampreetSingh/PP/blob/master/LeetCode/Array%20Code/Best%20Time%20to%20Buy%20and%20Sell%20Stock/)
 9. [Decompress Run-Length Encoded List](https://github.com/SanjampreetSingh/PP/blob/master/LeetCode/Array%20Code/Decompress%20Run-Length%20Encoded%20List)
+10. [Range Sum Query 2D - Immutable](https://github.com/SanjampreetSingh/PP/blob/master/LeetCode/Range%20Sum%20Query%202D%20-%20Immutable)
