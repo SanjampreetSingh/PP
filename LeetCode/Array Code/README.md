@@ -11,3 +11,4 @@
 9. [Decompress Run-Length Encoded List](https://github.com/SanjampreetSingh/PP/blob/master/LeetCode/Array%20Code/Decompress%20Run-Length%20Encoded%20List/)
 10. [Range Sum Query 2D - Immutable](https://github.com/SanjampreetSingh/PP/tree/master/LeetCode/Array%20Code/Range%20Sum%20Query%202D%20-%20Immutable/)
 11. [Matrix Block Sum](https://github.com/SanjampreetSingh/PP/tree/master/LeetCode/Array%20Code/Matrix%20Block%20Sum/)
+12. [Count Items Matching a Rule](https://github.com/SanjampreetSingh/PP/tree/master/LeetCode/Array%20Code/Count%20Items%20Matching%20a%20Rule/)
