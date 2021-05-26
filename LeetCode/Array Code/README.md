@@ -12,3 +12,4 @@
 10. [Range Sum Query 2D - Immutable](https://github.com/SanjampreetSingh/PP/tree/master/LeetCode/Array%20Code/Range%20Sum%20Query%202D%20-%20Immutable/)
 11. [Matrix Block Sum](https://github.com/SanjampreetSingh/PP/tree/master/LeetCode/Array%20Code/Matrix%20Block%20Sum/)
 12. [Count Items Matching a Rule](https://github.com/SanjampreetSingh/PP/tree/master/LeetCode/Array%20Code/Count%20Items%20Matching%20a%20Rule/)
+13. [Search a 2D Matrix II](https://github.com/SanjampreetSingh/PP/tree/master/LeetCode/Array%20Code/Search%20a%202D%20Matrix%20II/)
