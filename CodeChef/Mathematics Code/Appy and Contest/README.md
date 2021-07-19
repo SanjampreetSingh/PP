@@ -34,4 +34,4 @@ To win, it is necessary to solve at least K problems. You have to tell Appy whet
 2. Space complexity - O(1)
 
 **Result**:  
-![Result image](https://github.com/SanjampreetSingh/PP/blob/master/CodeChef/Mathematics%20Code/Appy%20and%20Contest/image.jpg)
+![Result image](https://github.com/SanjampreetSingh/PP/blob/master/CodeChef/Mathematics%20Code/Appy%20and%20Contest/image.png)
