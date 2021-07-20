@@ -26,4 +26,4 @@ If there is no such integer in the array, return 0.
 2. Space complexity - O(1)
 
 **Result**:  
-![Result image](https://github.com/SanjampreetSingh/PP/blob/master/LeetCode/Mathematic%20Code/Four%20Divisors/image.jpg)
+![Result image](https://github.com/SanjampreetSingh/PP/blob/master/LeetCode/Mathematic%20Code/Four%20Divisors/image.png)
