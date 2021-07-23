@@ -22,7 +22,7 @@ If there is no such integer in the array, return 0.
 
 **Statistics**
 
-1. Time complexity - O(N*sqrt(nums))
+1. Time complexity - O(N\*sqrt(nums))
 2. Space complexity - O(1)
 
 **Result**:  
