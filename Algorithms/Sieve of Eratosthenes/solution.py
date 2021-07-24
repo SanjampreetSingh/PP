@@ -1,5 +1,5 @@
 class Solution:
-    def sieve_of_eratosthenes(self, n):
+    def sieve_of_eratosthenes(self, n: int) -> int:
         i = 2
 
         # All numbers are prime therefore all values in array are True
