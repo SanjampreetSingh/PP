@@ -18,40 +18,40 @@ class Solution:
 
         return spf
 
-# A O(log n) function returning
-# count of factors
-# by dividing by smallest
-# prime factor at every step
-def getFactorCount(self, num: int, spf: List) -> int:
+    # A O(log n) function returning
+    # count of factors
+    # by dividing by smallest
+    # prime factor at every step
+    def getFactorCount(self, num: int, spf: List) -> int:
 
-    temp = spf[num]
-    count = 0
-    ans = 1
+        temp = spf[num]
+        count = 0
+        ans = 1
 
-    # loop for factorization
-    while (spf[num] != 1):
-        #  condition for count manupulation
-        if temp == spf[num]:
-            count += 1
-        else:
-            count += 1
-            # ans cal
-            ans *= count
-            temp = spf[num]
-            count = 1
-        # division
-        num //= spf[num]
+        # loop for factorization
+        while (spf[num] != 1):
+            #  condition for count manupulation
+            if temp == spf[num]:
+                count += 1
+            else:
+                count += 1
+                # ans cal
+                ans *= count
+                temp = spf[num]
+                count = 1
+            # division
+            num //= spf[num]
 
-    # count for last number that loop came out for
-    count += 1
-    ans *= count
-
-    # count for number on right side of root num
-    if num != 1:
-        count = 2
+        # count for last number that loop came out for
+        count += 1
         ans *= count
 
-    return ans
+        # count for number on right side of root num
+        if num != 1:
+            count = 2
+            ans *= count
+
+        return ans
 
 
 # Driver code
