@@ -5,7 +5,7 @@ class Solution:
     def sieve(self, n: int = 10**6) -> List:
         spf = [1]*(n+1)
         spf[0] = 0
-        spf[1] = 0
+        spf[1] = 1
         i = 2
 
         while i*i <= (n+1):
@@ -15,22 +15,30 @@ class Solution:
                         spf[j] = i
             i += 1
 
+        for i in range(2, n+1):
+            if spf[i] == 1:
+                spf[i] = i
         return spf
 
     def getPrimeFactorFactorCount(self, input_lst: List, spf: List) -> List:
         output_lst = []
         for num in input_lst:
-            arr = []
+            temp = spf[num]
+            count = 1
 
             # loop for factorization
             while (spf[num] != 1):
-                arr.append(spf[num])
+                if spf[num] != temp:
+                    count += 1
+                    temp = spf[num]
+                if spf[num] == 1:
+                    break
                 num //= spf[num]
 
             # count for number on right side of root num
             if num != 1:
-                arr.append(num)
-            output_lst.append(len(set(arr)))
+                count += 1
+            output_lst.append(count)
         return output_lst
 
 

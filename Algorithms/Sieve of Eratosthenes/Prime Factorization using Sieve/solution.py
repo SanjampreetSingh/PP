@@ -7,7 +7,7 @@ class Solution:
     # Time Complexity : O(n*(log(log(n))))
     def sieve(self, n: int) -> List:
         spf = [1]*(n+1)
-        spf[1] = 0
+        spf[1] = 1
         i = 2
         while (i*i <= n+1):
             if spf[i] == 1:
@@ -15,6 +15,10 @@ class Solution:
                     if spf[j] == 1:
                         spf[j] = i
             i += 1
+
+        for i in range(2, n+1):
+            if spf[i] == 1:
+                spf[i] = i
         return spf
 
     # A O(log n) function returning prime
