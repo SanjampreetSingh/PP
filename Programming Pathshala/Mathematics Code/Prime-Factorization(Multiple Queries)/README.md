@@ -32,8 +32,8 @@ Prime factors should be printed in increasing order.
 
 **Statistics**
 
-1. Time complexity - 
+1. Time complexity -
 2. Space complexity - O(MAX)
 
 **Result**:  
-![Result image](https://github.com/SanjampreetSingh/PP/blob/master/Programming%20Pathshala/Mathematics%20Code/Counting%21Primes/image.jpg)
+![Result image](<https://github.com/SanjampreetSingh/PP/blob/master/Programming%20Pathshala/Mathematics%20Code/Prime-Factorization(Multiple%20Queries)/image.jpg>)

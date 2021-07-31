@@ -33,4 +33,4 @@ For each test case, output the number of prime numbers less than or equal to N o
 2. Space complexity - O(MAX)
 
 **Result**:  
-![Result image](https://github.com/SanjampreetSingh/PP/blob/master/Programming%20Pathshala/Mathematics%20Code/Counting%21Primes/image.jpg)
+![Result image](https://github.com/SanjampreetSingh/PP/blob/master/Programming%20Pathshala/Mathematics%20Code/Counting%20Primes/image.jpg)
