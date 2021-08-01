@@ -4,7 +4,6 @@ from typing import List
 class Solution:
     def sieve(self, n: int = 10**6) -> List:
         spf = [1]*(n+1)
-        spf[0] = 0
         spf[1] = 1
         i = 2
 
@@ -27,7 +26,7 @@ class Solution:
             count = 1
 
             # loop for factorization
-            while (spf[num] != 1):
+            while (num != 1):
                 if spf[num] != temp:
                     count += 1
                     temp = spf[num]
@@ -35,9 +34,6 @@ class Solution:
                     break
                 num //= spf[num]
 
-            # count for number on right side of root num
-            if num != 1:
-                count += 1
             output_lst.append(count)
         return output_lst
 

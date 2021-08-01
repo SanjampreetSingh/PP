@@ -16,9 +16,6 @@ class Solution:
                         spf[j] = i
             i += 1
 
-        for i in range(2, n+1):
-            if spf[i] == 1:
-                spf[i] = i
         return spf
 
     # A O(log n) function returning prime
