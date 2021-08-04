@@ -6,3 +6,4 @@
 4. [Count of Divisors For Multiple Queries](https://github.com/SanjampreetSingh/PP/tree/master/Programming%20Pathshala/Mathematics%20Code/Count%20of%20Divisors%20For%20Multiple%20Queries/)
 5. [Divisor Summation](https://github.com/SanjampreetSingh/PP/tree/master/Programming%20Pathshala/Mathematics%20Code/Divisor%20Summation/)
 6. [T-prime](https://github.com/SanjampreetSingh/PP/tree/master/Programming%20Pathshala/Mathematics%20Code/T-prime/)
+7. [Common Divisors](https://github.com/SanjampreetSingh/PP/tree/master/Programming%20Pathshala/Mathematics%20Code/Common%20Divisors/)
