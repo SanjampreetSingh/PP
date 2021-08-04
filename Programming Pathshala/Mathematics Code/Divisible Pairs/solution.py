@@ -11,11 +11,11 @@ class Solution:
 
         return ans
 
-    def pair_four(self, n: int, arr: List) -> List:
+    def pair_four(self, arr: List) -> List:
         four_count = [0]*4
 
-        for i in range(n):
-            four_count[arr[i] % 4] += 1
+        for val in arr:
+            four_count[val % 4] += 1
 
         return four_count
 
@@ -25,6 +25,5 @@ if __name__ == "__main__":
     obj = Solution()
     for _ in range(T):
         N = int(input())
-        four_count = obj.pair_four(
-            N, list(map(int, input().strip().split()))[:N])
+        four_count = obj.pair_four(list(map(int, input().strip().split()))[:N])
         print(obj.divisible_pairs(four_count))
