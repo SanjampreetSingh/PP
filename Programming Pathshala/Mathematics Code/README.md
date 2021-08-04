@@ -7,3 +7,4 @@
 5. [Divisor Summation](https://github.com/SanjampreetSingh/PP/tree/master/Programming%20Pathshala/Mathematics%20Code/Divisor%20Summation/)
 6. [T-prime](https://github.com/SanjampreetSingh/PP/tree/master/Programming%20Pathshala/Mathematics%20Code/T-prime/)
 7. [Common Divisors](https://github.com/SanjampreetSingh/PP/tree/master/Programming%20Pathshala/Mathematics%20Code/Common%20Divisors/)
+8. [Divisible Pairs](https://github.com/SanjampreetSingh/PP/tree/master/Programming%20Pathshala/Mathematics%20Code/Divisible%20Pairs/)
