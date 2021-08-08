@@ -24,6 +24,8 @@ Given two numbers A and B. The task is to find out their LCM and GCD.
 
 **Constraints:**
 
+- 1 <= A,B <= 10^18
+
 **Statistics**
 
 1. Time complexity - O(log(min(A, B))
