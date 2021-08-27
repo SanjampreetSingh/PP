@@ -3,12 +3,13 @@ from typing import List
 
 class Solution:
     def maxChunksToSorted(self, arr: List[int]) -> int:
-        p_max = -1e20
-        ans = 0
-        for i in range(0, len(arr)):
-            p_max = max(p_max, arr[i])
-            if (p_max == i):
+        current_max, ans, n = -1e20, 0, len(arr)
+
+        for i in range(0, n):
+            current_max = max(current_max, arr[i])
+            if (current_max == i):
                 ans += 1
+
         return ans
 
 
