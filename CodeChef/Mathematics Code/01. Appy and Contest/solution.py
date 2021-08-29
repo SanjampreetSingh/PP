@@ -2,14 +2,16 @@ class Solution:
     def gcd(self, a, b):
         max_val = max(a, b)
         min_val = min(a, b)
+
         if (min_val == 0):
             return max_val
-        else:
-            while (max_val % min_val != 0):
-                temp = max_val
-                max_val = min_val
-                min_val = temp % min_val
-            return min_val
+
+        while (max_val % min_val != 0):
+            temp = max_val
+            max_val = min_val
+            min_val = temp % min_val
+
+        return min_val
 
     def lcm_ab(self, a, b):
         return ((a*b)//self.gcd(a, b))
@@ -20,6 +22,7 @@ class Solution:
             print("Win")
         else:
             print("Lose")
+
 
 if __name__ == '__main__':
     T = int(input())
