@@ -20,10 +20,9 @@ def rearrangeNaive(arr, n):
     for i in range(n):
         arr[i] = (-1*arr[i])-1
 
+
 # A utility function to print
 # contents of arr[0..n-1]
-
-
 def printArray(arr, n):
     for i in range(n):
         print(arr[i], end=" ")

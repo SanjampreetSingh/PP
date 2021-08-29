@@ -12,11 +12,10 @@ class Solution:
 
         return ans
 
+
 # {
 #  Driver Code Starts
 # Initial Template for Python 3
-
-
 def main():
     T = int(input())
     while(T > 0):
