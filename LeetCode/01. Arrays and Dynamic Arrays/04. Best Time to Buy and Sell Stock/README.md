@@ -32,4 +32,4 @@ Return the maximum profit you can achieve from this transaction. If you cannot a
 2. Space complexity - O(1)
 
 **Result**:  
-![Result image](https://github.com/SanjampreetSingh/PP/blob/master/LeetCode/Array%20Code/Best%20Time%20to%20Buy%20and%20Sell%20Stock/image.jpg)
+![Result image](https://github.com/SanjampreetSingh/PP/blob/master/LeetCode/Array%20Code/04.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock/image.jpg)
