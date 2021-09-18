@@ -1,6 +1,6 @@
 
 class Solution:
-    def factorial(self, n: int):
+    def factorial(self, n: int) -> int:
         # Termination Condition
         if n == 0:
             return 1
