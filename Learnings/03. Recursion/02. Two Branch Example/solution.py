@@ -1,4 +1,3 @@
-
 class Solution:
     def two_branch(self, n: int):
         print(n)

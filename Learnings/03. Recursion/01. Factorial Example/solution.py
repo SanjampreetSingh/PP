@@ -1,4 +1,3 @@
-
 class Solution:
     def factorial(self, n: int) -> int:
         # Termination Condition
@@ -7,6 +6,7 @@ class Solution:
         # Recurrence Relation
         else:
             return self.factorial(n-1)*n
+
 
 if __name__ == "__main__":
     obj = Solution()

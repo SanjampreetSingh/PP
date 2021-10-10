@@ -34,6 +34,7 @@ class Solution:
 if __name__ == "__main__":
     obj = Solution(3, 3)
     print("Int based method: " + str(obj.count_paths(0, 0)))
-    print("Int based method in Bottom to Top approach: " + str(obj.count_paths_from_destination(2, 2)))
+    print("Int based method in Bottom to Top approach: " +
+          str(obj.count_paths_from_destination(2, 2)))
     obj.count_paths_void(0, 0)
     print("Void based method: " + str(count))
