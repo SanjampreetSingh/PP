@@ -1,4 +1,3 @@
-
 from typing import List
 
 
@@ -10,38 +9,43 @@ class Solution:
         while i < divisor:
             j = i
             while j < divisor:
-                remainder_two_pair = (i+j) % divisor
+                remainder_two_pair = (i + j) % divisor
 
                 if (remainder_two_pair) == 0:
                     k = 0
                 else:
-                    k = (divisor - remainder_two_pair)
+                    k = divisor - remainder_two_pair
                 if k > j:
                     j += 1
                     continue
 
                 if i == j and j == k:
-                    count += ((remainder_arr[i] * (remainder_arr[i] - 1)
-                               * (remainder_arr[i] - 2)) // 6)
+                    count += (
+                        remainder_arr[i]
+                        * (remainder_arr[i] - 1)
+                        * (remainder_arr[i] - 2)
+                    ) // 6
                 elif i == j:
-                    count += (((remainder_arr[i]) * (remainder_arr[i]-1)
-                               ) // 2) * (remainder_arr[k])
+                    count += (((remainder_arr[i]) * (remainder_arr[i] - 1)) // 2) * (
+                        remainder_arr[k]
+                    )
                 elif i == k:
-                    count += (((remainder_arr[i]) * (remainder_arr[i]-1)
-                               ) // 2) * (remainder_arr[j])
+                    count += (((remainder_arr[i]) * (remainder_arr[i] - 1)) // 2) * (
+                        remainder_arr[j]
+                    )
                 elif k == j:
-                    count += (((remainder_arr[j]) * (remainder_arr[j]-1)
-                               ) // 2) * (remainder_arr[i])
+                    count += (((remainder_arr[j]) * (remainder_arr[j] - 1)) // 2) * (
+                        remainder_arr[i]
+                    )
                 else:
-                    count += (remainder_arr[i] *
-                              remainder_arr[j] * remainder_arr[k])
+                    count += remainder_arr[i] * remainder_arr[j] * remainder_arr[k]
                 j += 1
             i += 1
 
         return count
 
     def get_remainders(self, divisor: int, input_arr: List) -> List:
-        remainders = [0]*divisor
+        remainders = [0] * divisor
 
         for i in input_arr:
             remainders[i % divisor] += 1
