@@ -11,6 +11,6 @@ class Solution:
         return reverse == n
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     s = Solution()
     print(s.palindrome(12321))
