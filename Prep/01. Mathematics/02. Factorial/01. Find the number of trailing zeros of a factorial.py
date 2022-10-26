@@ -17,10 +17,9 @@ class Solution:
         # Here we look for number of 5's in the factorial's factors and add to count
         # Complexity is O(log number)
         count = 0
-        i = 5
-        while i < number:
-            count += number // i
-            i *= 5
+        while number >= 5:
+            number //= 5
+            count += number
 
         return count
 
