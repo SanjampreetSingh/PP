@@ -22,7 +22,7 @@ class Solution:
     def euclidean_solution_optimized(self, num1: int, num2: int) -> int:
         if num2 == 0:
             return num1
-        return self.euclidean_solution(num2, num1%num2)
+        return self.euclidean_solution_optimized(num2, num1%num2)
 
 
 if __name__ == "__main__":
