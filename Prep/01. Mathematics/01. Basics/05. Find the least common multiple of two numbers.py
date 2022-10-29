@@ -1,10 +1,10 @@
 class Solution:
     def naive_solution(self, num1: int, num2: int) -> int:
-        min_val = min(num1, num2)
+        max_val = max(num1, num2)
         while True:
-            if min_val % num1 == 0 and min_val % num2 == 0:
-                return min_val
-            min_val += 1
+            if max_val % num1 == 0 and max_val % num2 == 0:
+                return max_val
+            max_val += 1
 
     def gcd(self, num1: int, num2: int) -> int:
         if num2 == 0:
