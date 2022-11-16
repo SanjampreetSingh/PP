@@ -37,7 +37,7 @@ class Solution:
         first = self.first_occurrences(arr, x)
 
         if first == -1:
-            return -1
+            return 0
         else:
             return self.last_occurrences(arr, x) - first + 1
 
