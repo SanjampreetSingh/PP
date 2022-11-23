@@ -1,7 +1,7 @@
 class Solution:
     def bubble_sort(self, arr: list) -> list:
         for i in range(len(arr) - 1):
-            for j in range(i, len(arr) - i - 1):
+            for j in range(len(arr) - i - 1):
                 if arr[j] > arr[j + 1]:
                     arr[j], arr[j + 1] = arr[j + 1], arr[j]
 
@@ -23,4 +23,5 @@ class Solution:
 if __name__ == "__main__":
     s = Solution()
     print(s.bubble_sort([2, 10, 8, 6]))
-    print(s.bubble_sort_optimized([2, 10, 8, 6]))
+    print(s.bubble_sort_optimized([24, 18, 38, 43, 14, 40, 1, 54]))
+
