@@ -1,9 +1,9 @@
 class Solution:
     def merge_two_sorted_sub_arrays(
         self, arr: list, low: int, mid: int, high: int
-    ) -> int:
-        left = arr[low : mid + 1]
-        right = arr[mid + 1 : high + 1]
+    ) -> list:
+        left = arr[:mid+1]
+        right = arr[mid+1:]
         m = len(left)
         n = len(right)
         i, j = 0, 0
